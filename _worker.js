@@ -7,11 +7,11 @@ import { connect } from 'cloudflare:sockets';
 
 // How to generate your own UUID:
 // https://www.uuidgenerator.net/
-let userID = '89b3cbba-e6ac-485a-9481-976a0415eab9';
+let userID = '4840b005-1916-4e23-9cc2-718dfa4d1789';
 
 // https://www.nslookup.io/domains/cdn.xn--b6gac.eu.org/dns-records/
 // https://www.nslookup.io/domains/cdn-all.xn--b6gac.eu.org/dns-records/
-const proxyIPs= ['cdn.xn--b6gac.eu.org', 'cdn-all.xn--b6gac.eu.org', 'edgetunnel.anycast.eu.org'];
+const proxyIPs= ['cdn.xn--b6gac.eu.org', 'cdn-all.xn--b6gac.eu.org', 'edgetunnel.anycast.eu.org','alejandracaiccedo.com','www.zsu.gov.ua','xn--b6gac.eu.org','fbi.gov','www.udemy.com','gur.gov.ua','www.digitalocean.com','www.csgo.com','www.visakorea.com','www.gov.ua','www.whoer.net','www.ipget.net','www.gco.gov.qa','skk.moe','www.visa.com.tw','www.visa.co.jp','japan.com','www.gov.se','icook.hk','www.visa.com.hk','russia.com','www.iakeys.com','www.boba88slot.com','www.udacity.com','www.baipiao.eu.org','edtunnel-dgp.pages.dev','www.visa.com.sg','www.hugedomains.com','www.d-555.com'];
 
 const defaultHttpPorts = ['80', '8080', '2052', '2082', '2086', '2095', '8880'];
 const defaultHttpsPorts = ['443', '8443', '2053', '2083', '2087', '2096'];
